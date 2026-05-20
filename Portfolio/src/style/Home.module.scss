@@ -1,0 +1,12 @@
+.Container {
+  background-color: #000;
+  background-image: radial-gradient(ellipse at center, rgba(255,255,255,0.06) 0%, transparent 60%);
+  width: 100vw;
+  height: 100vh;
+   padding-top: 100px;
+   padding-bottom: 120px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}

@@ -1,0 +1,177 @@
+.Footer{
+    box-sizing: border-box;
+    height: 120px;
+    width: 100vw;
+     display: flex;
+    align-items: center;
+    border:1px solid rgba(255, 255, 255, 0.08);
+    padding: 15px;
+    background-color:#111216;
+    position: fixed;
+    bottom: 0;
+}
+.footerBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin: 0 15px;
+    min-height: 80px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #22c55e;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.dotandwork{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+}
+.name{
+    margin: 0 0 7px 0;
+    color: white; 
+    font-size: 1.4rem;
+    opacity: 0.7; 
+}
+.work{
+    color: #22c55e;
+}
+.socialFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.links{
+    display: flex;
+    gap: 10px;
+    a{
+        text-decoration: none;
+    color: white; 
+    font-size: 1.4rem;
+    opacity: 0.7; 
+     display: flex;
+    align-items: center;
+
+    }
+}
+.AA{
+    text-decoration: none;
+    color: white; 
+    font-size: 1.4rem;
+    opacity: 0.7; 
+     display: flex;
+    align-items: center;
+     transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-3px);
+    color: white;
+    opacity: 1;
+  }
+}
+.dot2 {
+  color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+}
+.resume{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+        
+        span{
+            display: flex;
+            align-items: center;
+        }
+  transition: transform 0.2s ease;
+  &:hover {
+        transform: translateY(-3px);
+        a{
+            color: white;
+            opacity: 1;
+        }
+        .soctag{
+            color: white;
+            opacity: 1;
+        }
+    
+  }
+}
+.anyLinks{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    gap: 50px;
+}
+.aa {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  &:hover {
+    .spantext {
+      color: #ffffff;
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+      opacity: 1;
+      transition: all 0.2s ease;
+    }
+    .soctag {
+      color: #ffffff;
+      filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.7));
+      opacity: 1;
+      transition: all 0.2s ease;
+    }
+  }
+}
+.soctag{
+  color: white; 
+    
+    opacity: 0.7;  
+}
+.spantext{
+  font-size: 20px;
+  color: white; 
+    
+    opacity: 0.7;  
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.TimeCountry{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.icon{
+    color: white; 
+    
+    opacity: 0.7;  
+    display: flex;
+    align-items: center;
+}
+.Country{
+      color: white; 
+    font-size: 1.4rem;
+    opacity: 0.7; 
+}
+.gg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: 1.4rem;
+    opacity: 0.7; 
+}

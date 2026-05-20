@@ -1,9 +1,11 @@
-
+import s from "../style/Home.module.scss"
 
 
 export const Home = ()=>{
 
     return(
-       <div>lor</div>
+       <div className={s.Container}>
+
+       </div>
     )
 }
