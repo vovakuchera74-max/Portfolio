@@ -33,7 +33,7 @@ useEffect(() => {
   <Link className={s.AA} to={"/"}>main</Link>
   <span className={s.dot2}>·</span>
   <Link className={s.AA} to={"/feat/skills"}>feat/skills</Link>
-  <span className={s.dot2}>·</span>
+  <span className={s.dot3}>·</span>
   <Link className={s.AA} to={"/release/projects"}>release/projects</Link>
   <span className={s.dot2}>·</span>
   <div className={s.resume}><span className={s.soctag}><MdFileDownload size={21} /></span> <a href="">resume</a></div>

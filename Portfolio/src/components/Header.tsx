@@ -64,9 +64,9 @@ export const Header = () => {
            <div className={s.social}>
             <div className={s.socialText}>Socials</div>
             <div className={s.socialTag}>
-              <a href="https://github.com/vovakuchera74-max" className={s.aa}><span><FaGithub className={s.soctag} size={28}/></span><span className={s.spantext}>GitHub</span></a>
-              <a href="mailto:vovakuchera74@gmail.com" className={s.aa}><span><MdEmail className={s.soctag} size={28}/></span><span className={s.spantext}>Email</span></a>
-              <a href="https://t.me/Darkdszxc" className={s.aa}><span><RiTelegram2Line className={s.soctag} size={28}/></span><span className={s.spantext}>Telegram</span></a>
+              <a href="https://github.com/vovakuchera74-max" className={s.aaa}><span><FaGithub className={s.soctag} size={28}/></span><span className={s.spantext}>GitHub</span></a>
+              <a href="mailto:vovakuchera74@gmail.com" className={s.aaa}><span><MdEmail className={s.soctag} size={28}/></span><span className={s.spantext}>Email</span></a>
+              <a href="https://t.me/Darkdszxc" className={s.aaa}><span><RiTelegram2Line className={s.soctag} size={28}/></span><span className={s.spantext}>Telegram</span></a>
             </div>
            </div>
         </div>
