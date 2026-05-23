@@ -1,0 +1,11 @@
+
+html, body, #root {
+  height: 100%;
+  background-color: #000;
+   font-family: 'JetBrains Mono', monospace;
+   font-size: 0.95rem;
+}
+main{
+    padding-top: 100px;
+    flex: 1
+}

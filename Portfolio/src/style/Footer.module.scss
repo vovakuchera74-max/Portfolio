@@ -1,14 +1,13 @@
 .Footer{
     box-sizing: border-box;
     height: 120px;
-    width: 100vw;
+    width: 100%;
      display: flex;
     align-items: center;
     border:1px solid rgba(255, 255, 255, 0.08);
     padding: 15px;
     background-color:#111216;
-    position: fixed;
-    bottom: 0;
+
 }
 .footerBox{
     display: flex;
@@ -56,7 +55,7 @@
     a{
         text-decoration: none;
     color: white; 
-    font-size: 1.4rem;
+
     opacity: 0.7; 
      display: flex;
     align-items: center;
@@ -84,10 +83,18 @@
   align-items: center;
   font-size: 28px;
 }
+.dot3{
+    color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+
+}
 .resume{
     display: flex;
     align-items: center;
     gap: 3px;
+    font-size: 1.4rem;
         
         span{
             display: flex;
@@ -174,4 +181,79 @@
     color: white; 
     font-size: 1.4rem;
     opacity: 0.7; 
+}
+@media (max-width: 1100px) {
+  .Footer {
+    height: auto;
+    padding: 20px 15px;
+  }
+
+  .footerBox {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .NameBlock {
+    order: 1;
+    
+  }
+
+  .time {
+    order: 2;
+  }
+
+  .socialFooter {
+    order: 3;
+    width: 100%; // займає весь рядок знизу
+    align-items: center;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Country{
+    font-size: 18px;
+  }
+  .gg{
+    font-size: 18px;
+  }
+  .links{
+    font-size: 18px;
+  }
+  .AA{
+    font-size: 18px;
+  }
+  .name{
+    font-size: 18px;
+  }
+  .spantext{
+    font-size: 18px;
+  }
+}
+@media(max-width:450px){
+  .footerBox{
+    flex-direction: column;
+  }
+  .socialFooter{
+    gap: 15px;
+  }
+  .anyLinks{
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    .aa{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border:1px solid rgba(255, 255, 255, 0.08);
+    padding: 10px;
+    background-color:#111216;
+    border-radius: 20px;
+    }
+  }
+  .dot3{display: none;}
 }

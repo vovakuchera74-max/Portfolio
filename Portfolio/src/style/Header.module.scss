@@ -69,7 +69,7 @@
     justify-content: space-between;
     border-radius: 9999px;
     height: 65px;
-    min-width: 460px;
+    min-width: 550px;
     border:1px solid rgba(255, 255, 255, 0.08);
     padding: 15px;
     background-color:#111216;
@@ -169,6 +169,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   
 }
 .Navigate{
@@ -200,7 +201,6 @@
     opacity: 0.7;  
 }
 .about{
-  margin: 160px 0 220px 0;
   min-height:180px;
   display: flex;
   flex-direction: column;
@@ -232,12 +232,12 @@
     opacity: 0.7;  
 }
 .spantext{
-  font-size: 26px;
+  font-size: 22px;
   color: white; 
     
     opacity: 0.7;  
 }
-.aa {
+.aaa {
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -256,6 +256,26 @@
       opacity: 1;
       transition: all 0.2s ease;
     }
+  }
+}
+@media(max-width:860px){
+  .buttons{
+    display: none;
+
+  }
+}
+@media(max-width:600px){
+  .panel{
+    min-width: 360px;
+  }
+  .BLock{
+    min-width: 310px;
+  }
+  .spantext{
+    font-size: 18px;
+  }
+  .socialText{
+    font-size: 22px;
   }
 }
 
