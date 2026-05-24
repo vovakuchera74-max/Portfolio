@@ -6,6 +6,8 @@ html, body, #root {
    font-size: 0.95rem;
 }
 main{
+    display: flex;
+    justify-content: center;
     padding-top: 100px;
     flex: 1
 }
