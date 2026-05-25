@@ -28,7 +28,28 @@
     margin-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    color: 10px;
+    gap: 40px;
 }
+@media(max-width:1190px){
+    .bottom{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:800px){
+    .bottom{
+        grid-template-columns: 1fr ;
+    }
+}
+@media(max-width:400px){
+    .ContainerProjects{
+        padding: 100px 10px 0 10px;
+    }
+    .Projt{
+        font-size: 28px;
+    }
+    .icon2{
+        font-size: 28px;
+    }
+}
+
+
