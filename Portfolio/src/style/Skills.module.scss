@@ -1,50 +1,70 @@
-.skillsBlock{
-    padding: 100px 25px 60px 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 1400px;
-    width: 100%;
-    flex: 1;
-    background-color: #000;
-  background-image: radial-gradient(ellipse at center, rgba(255,255,255,0.06) 0%, transparent 60%);
+.skillsBlock {
+  padding: 100px 25px 60px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1400px;
+  width: 100%;
+  flex: 1;
+  background-color: #000;
+  background-image: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.06) 0%,
+    transparent 60%
+  );
 }
-.scrol{
-    padding: 10px 0 150px 0;
-    width: 100%;
-    display: flex;
-    align-self: center;
-    overflow: hidden;
-    mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
--webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+.scrol {
+  padding: 10px 0 150px 0;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
 }
-
 
 @keyframes scrloling {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 .scrolitem {
-    display: flex;
-    width: max-content;
-    will-change: transform;
-    animation: scrloling 8s linear infinite;
-    &:hover {
-        animation-play-state: paused;
-    }
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: scrloling 8s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
 }
 
 .item {
-    color:white;
-    display: flex;
-    font-size: 65px;
-    padding-right: 45px;
-    opacity: 0.6;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+  color: white;
+  display: flex;
+  font-size: 65px;
+  padding-right: 45px;
+  opacity: 0.6;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
 
-    &:hover {
-        transform: scale(1.3);
-        opacity: 1;
-    }
-
+  &:hover {
+    transform: scale(1.3);
+    opacity: 1;
+  }
 }

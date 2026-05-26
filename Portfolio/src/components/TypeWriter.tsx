@@ -1,5 +1,5 @@
-import s from "../style/Writer.module.scss"
-import { useState, useEffect } from "react";
+import s from '../style/Writer.module.scss';
+import { useState, useEffect } from 'react';
 
 const linesHTML = [
   "<span class='kw'>const</span> <span class='key'>developerProfile</span> = {",
@@ -9,18 +9,18 @@ const linesHTML = [
   "  <span class='key'>currentGoal</span>: <span class='str'>'Build Portfolio, Anime Directory & Weather Projects'</span>,",
   "  <span class='key'>focus</span>: <span class='str'>'Modern & Responsive Web Design'</span>,",
   "  <span class='key'>Languages</span>: <span class='str'>'English & Ukrainian'</span>,",
-  "};"
+  '};',
 ];
 
 const linesPlain = [
-  "const developerProfile = {",
+  'const developerProfile = {',
   "  name: 'Vova',",
-  "  age: 18,",
+  '  age: 18,',
   "  stack: ['React', 'TypeScript', 'SCSS', 'Zustand', 'TanStack Query'],",
   "  currentGoal: 'Build Portfolio, Anime Directory & Weather Projects',",
   "  focus: 'Modern & Responsive Web Design',",
   "  Languages: 'English & Ukrainian',",
-  "};"
+  '};',
 ];
 
 function sliceHTML(html: string, visibleCount: number): string {
@@ -54,9 +54,9 @@ export const TypeWriter = () => {
       const currentLine = linesPlain[lineIdx];
 
       if (charIdx < currentLine.length) {
-        setCharIdx(prev => prev + 1);
+        setCharIdx((prev) => prev + 1);
       } else {
-        setLineIdx(prev => prev + 1);
+        setLineIdx((prev) => prev + 1);
         setCharIdx(0);
       }
     }, 60);
@@ -77,7 +77,11 @@ export const TypeWriter = () => {
 
   return (
     <div className={s.Block}>
-      <pre dangerouslySetInnerHTML={{ __html: getDisplayed() + '<span class="cursor">|</span>' }} />
+      <pre
+        dangerouslySetInnerHTML={{
+          __html: getDisplayed() + '<span class="cursor">|</span>',
+        }}
+      />
     </div>
   );
-}
+};

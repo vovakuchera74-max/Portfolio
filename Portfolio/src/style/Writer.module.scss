@@ -1,7 +1,15 @@
-:global(.kw)  { color: #c792ea; } // const — фіолетовий
-:global(.key) { color: #82aaff; } // name, age — синій
-:global(.str) { color: #c3e88d; } // 'Vova' — зелений
-:global(.num) { color: #f78c6c; } // 18 — помаранчевий
+:global(.kw) {
+  color: #c792ea;
+} // const — фіолетовий
+:global(.key) {
+  color: #82aaff;
+} // name, age — синій
+:global(.str) {
+  color: #c3e88d;
+} // 'Vova' — зелений
+:global(.num) {
+  color: #f78c6c;
+} // 18 — помаранчевий
 .cursor {
   display: inline-block;
   width: 2px;
@@ -11,7 +19,9 @@
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 pre {
   color: #ccd6f6;
@@ -22,11 +32,12 @@ pre {
 :global(.cursor) {
   display: inline-block;
   width: 2px;
-  
+
   animation: blink 0.7s steps(1) infinite;
-  
 }
 
 @keyframes blink {
-  50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
