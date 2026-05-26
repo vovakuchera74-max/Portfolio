@@ -5,7 +5,7 @@ import { FiGithub } from 'react-icons/fi';
 import { Top } from '../components/ProjectTop';
 import { Card } from '../components/Card';
 export const Projects = () => {
-  const { data, isError, isLoading } = useQuery({
+  const { data} = useQuery({
     queryKey: ['Git'],
     queryFn: () => Git(),
   });
