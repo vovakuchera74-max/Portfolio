@@ -1,12 +1,8 @@
 import { useQuery } from '@tanstack/react-query';
 import { contributions } from '../API/Contributions';
 import s from '../style/PrjTop.module.scss';
+import  type {Contribut} from "../type/Git"
 
-interface Contribut {
-  date: string;
-  count: number;
-  level: number;
-}
 
 const groupIntoWeeks = (c: Contribut[]) => {
   const weeks: (Contribut | null)[][] = [];

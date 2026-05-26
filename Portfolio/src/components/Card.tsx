@@ -1,16 +1,8 @@
 import s from '../style/Card.module.scss';
 import { MdOutlineStar } from 'react-icons/md';
 import { GoTag } from 'react-icons/go';
-interface GitRepo {
-  id: number;
-  name: string;
-  description: string | null;
-  html_url: string;
-  homepage: string;
-  stargazers_count: number;
-  language: string | null;
-  updated_at: string;
-}
+import  type {GitRepo} from "../type/Git"
+
 export const Card = ({ repo }: { repo: GitRepo }) => {
   const date = new Date(repo.updated_at).toISOString().split('T')[0];
 
