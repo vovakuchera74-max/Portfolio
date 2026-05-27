@@ -1,13 +1,14 @@
-
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   background-color: #000;
-   font-family: 'JetBrains Mono', monospace;
-   font-size: 0.95rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.95rem;
 }
-main{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    flex: 1
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  flex: 1;
 }
