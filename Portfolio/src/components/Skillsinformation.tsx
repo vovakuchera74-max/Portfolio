@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import s from '../style/SkillsBootom.module.scss';
+import s from '../style/SkillsBoottom.module.scss';
 import { FaReact } from 'react-icons/fa';
 import { SiTypescript } from 'react-icons/si';
 import { FaJs } from 'react-icons/fa';
