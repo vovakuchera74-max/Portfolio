@@ -49,19 +49,19 @@ export const Footer = () => {
             </div>
           </div>
           <div className={s.anyLinks}>
-            <a href="https://github.com/vovakuchera74-max" className={s.aa}>
+            <a href="https://github.com/vovakuchera74-max"  target="_blank" rel="noopener" className={s.aa}>
               <span>
                 <FaGithub className={s.soctag} size={22} />
               </span>
               <span className={s.spantext}>GitHub</span>
             </a>
-            <a href="mailto:vovakuchera74@gmail.com" className={s.aa}>
+            <a href="mailto:vovakuchera74@gmail.com" target="_blank" rel="noopener" className={s.aa}>
               <span>
                 <MdEmail className={s.soctag} size={22} />
               </span>
               <span className={s.spantext}>Email</span>
             </a>
-            <a href="https://t.me/Darkdszxc" className={s.aa}>
+            <a href="https://t.me/Darkdszxc" target="_blank" rel="noopener" className={s.aa}>
               <span>
                 <RiTelegram2Line className={s.soctag} size={22} />
               </span>

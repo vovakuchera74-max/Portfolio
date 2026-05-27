@@ -153,19 +153,20 @@ export const Header = () => {
                   <a
                     href="https://github.com/vovakuchera74-max"
                     className={s.aaa}
+                    target="_blank" rel="noopener"
                   >
                     <span>
                       <FaGithub className={s.soctag} size={28} />
                     </span>
                     <span className={s.spantext}>GitHub</span>
                   </a>
-                  <a href="mailto:vovakuchera74@gmail.com" className={s.aaa}>
+                  <a href="mailto:vovakuchera74@gmail.com" target="_blank" rel="noopener" className={s.aaa}>
                     <span>
                       <MdEmail className={s.soctag} size={28} />
                     </span>
                     <span className={s.spantext}>Email</span>
                   </a>
-                  <a href="https://t.me/Darkdszxc" className={s.aaa}>
+                  <a href="https://t.me/Darkdszxc" className={s.aaa} target="_blank" rel="noopener">
                     <span>
                       <RiTelegram2Line className={s.soctag} size={28} />
                     </span>

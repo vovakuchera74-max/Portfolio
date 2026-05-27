@@ -7,11 +7,13 @@
   );
   width: 100%;
   min-height: 100%;
+  
   padding-bottom: 50px;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1.8fr 2fr;
   column-gap: 30px;
+  max-width: 1400px;
 }
 .left {
   display: flex;
@@ -244,7 +246,6 @@
 
   .rightbottom {
     width: 100%;
-    overflow-x: auto;
     min-height: 280px;
     margin-bottom: 20px;
   }
@@ -266,7 +267,11 @@
   padding: 5px;
 }
 @media (min-width: 1550px) {
-  .left {
-    margin-left: 100px;
+  .name{
+    font-size: 1.9rem;
+  }
+  .info{
+    font-size: 1.5rem;
   }
 }
+
