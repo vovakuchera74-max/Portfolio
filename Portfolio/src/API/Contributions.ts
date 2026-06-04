@@ -1,4 +1,4 @@
-import  type {ContributionsResponse} from "../type/Git"
+import  type {ContributionsResponse} from "../types/Git"
 const ContributionsApi =
   'https://github-contributions-api.jogruber.de/v4/vovakuchera74-max?y=last';
 

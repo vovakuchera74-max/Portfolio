@@ -1,4 +1,4 @@
-import  type {GitRepo} from "../type/Git"
+import  type {GitRepo} from "../types/Git"
 const API = 'https://api.github.com/users/vovakuchera74-max/repos';
 
 

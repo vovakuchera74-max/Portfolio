@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import s from '../style/Header.module.scss';
+import s from '../styles/Header.module.scss';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';

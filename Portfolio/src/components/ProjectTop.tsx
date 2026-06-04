@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
-import { contributions } from '../API/Contributions';
-import s from '../style/PrjTop.module.scss';
-import  type {Contribut} from "../type/Git"
+import { contributions } from '../api/Contributions';
+import s from '../styles/PrjTop.module.scss';
+import  type {Contribut} from "../types/Git"
 
 
 const groupIntoWeeks = (c: Contribut[]) => {

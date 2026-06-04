@@ -1,5 +1,5 @@
-import { Git } from '../API/Api';
-import s from '../style/Project.module.scss';
+import { Git } from '../api/Api';
+import s from '../styles/Project.module.scss';
 import { useQuery } from '@tanstack/react-query';
 import { FiGithub } from 'react-icons/fi';
 import { Top } from '../components/ProjectTop';

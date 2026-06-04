@@ -1,9 +1,9 @@
-import { Home } from './page/Home';
+import { Home } from './pages/Home';
 import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { Skills } from './page/Skills';
-import { Projects } from './page/Projects';
+import { Skills } from './pages/Skills';
+import { Projects } from './pages/Projects';
 function App() {
   return (
     <div

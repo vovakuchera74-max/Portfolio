@@ -1,4 +1,4 @@
-import s from '../style/Home.module.scss';
+import s from '../styles/Home.module.scss';
 import { FaReact } from 'react-icons/fa';
 import { SiTypescript } from 'react-icons/si';
 import { TypeWriter } from '../components/TypeWriter';

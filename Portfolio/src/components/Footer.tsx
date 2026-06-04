@@ -1,4 +1,4 @@
-import s from '../style/Footer.module.scss';
+import s from '../styles/Footer.module.scss';
 import { Link } from 'react-router-dom';
 import { MdFileDownload } from 'react-icons/md';
 import { FaGithub } from 'react-icons/fa';

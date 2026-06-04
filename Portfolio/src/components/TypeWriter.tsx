@@ -1,4 +1,4 @@
-import s from '../style/Writer.module.scss';
+import s from '../styles/Writer.module.scss';
 import { useState, useEffect } from 'react';
 
 const linesHTML = [
